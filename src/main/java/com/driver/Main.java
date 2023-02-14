@@ -15,10 +15,11 @@ public class Main {
         return"Method is overridden is Extendend class B";
     }
 
-    public static void main(String []args){
-            B b =new B();
-            b.meth();
-            b.meth();
+    public static void main(String []args) {
+        B b = new B();
+        b.meth();
+        b.meth();
     }
+
     }
 }
