@@ -6,20 +6,17 @@ public class Main {
         public String meth(){
             return "Invoking method from class A";
         }
-
-
     }
     public static class B extends A {
         public String meth() {
 
-        return"Method is overridden is Extendend class B";
+            return "Method is overridden is Extendend class B";
+        }
     }
 
     public static void main(String []args) {
         B b = new B();
         b.meth();
         b.meth();
-    }
-
     }
 }
